@@ -1,0 +1,31 @@
+Package: dexdata
+Type: Package
+Title: Example data set for dexdash
+Version: 0.1.0
+Authors@R: person(
+    given = "Marek",
+    family = "Gierlinski",
+    email = "M.Gierlinski@dundee.ac.uk",
+    role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0001-9149-3514")
+    ) 
+Description: This package contains a few example data sets to be used with dexdash tutorial.
+License: MIT + file LICENSE
+Encoding: UTF-8
+URL: https://github.com/bartongroup/dexdash
+BugReports: https://github.com/bartongroup/dexdash/issues
+biocViews:
+    FunctionalPrediction,
+    DifferentialExpression,
+    GeneSetEnrichment,
+    GO,
+    KEGG,
+    Reactome,
+    Visualization
+Imports:
+Suggests:
+Depends: 
+    R (>= 4.1)
+RoxygenNote: 7.3.2
+LazyData: true
+LazyDataCompression: xz
